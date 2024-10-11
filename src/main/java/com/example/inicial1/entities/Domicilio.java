@@ -1,11 +1,12 @@
 package com.example.inicial1.entities;
 
+import org.hibernate.envers.Audited;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
-import org.hibernate.envers.Audited;
 
 @Entity
 @AllArgsConstructor
